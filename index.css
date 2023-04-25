@@ -8,6 +8,53 @@
   display: flex;
 }
 
-ul {
-  list-style: none;
+/* .searched_user_repo {
+  background: black;
+  color: white;
+  height: fit-content;
+  width: fit-content;
+} */
+
+.searched_user {
+  text-align: center;
+  background: black;
+  color: white;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 29rem;
+  height: 36rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 4px 4px #7851a9;
+}
+
+a {
+  color: white;
+}
+
+h2 {
+  font-size: 48px;
+  margin-top: -3px;
+  margin-bottom: -10px;
+}
+
+p {
+  margin-bottom: -10px;
+}
+
+img {
+  display: block;
+  height: 460px;
+  width: 460px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li::marker {
+  content: '✝ ';
+  font-size: 1.2em;
+}
+
+.hidden {
+  visibility: hidden;
 }
